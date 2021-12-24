@@ -1,0 +1,158 @@
+ul{
+    display: flex;
+    direction: row;
+    list-style: none;
+    float: right;
+}
+li{
+    margin: 5px;
+    display: flex;
+
+}
+
+.account img{
+    border-radius: 50%;
+    display: flex;
+    margin-top: -5px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+
+}main{
+    height: 60vh;
+    width: 100%;
+    position: none;
+    left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+}
+.searchbar input{
+    outline: none;
+    border-radius: 0px;
+    border: 0px;
+    fill: none;
+    padding-left: 10px ;
+    width: 487px;
+    height: 39px;
+    
+}
+.searchbar{
+    box-shadow: 0px 0px 2px #aaa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 50px ;
+
+}
+svg{
+    display: flex;
+}
+.searchbar:hover{
+    box-shadow: 0px 0px 5px rgb(88, 88, 88);
+
+}
+.searchbar:focus{
+    box-shadow: 0px 0px 5px #aaa;
+}
+input:focus .searchbar {
+    box-shadow: 0px 0px 5px rgb(56, 55, 55);
+}
+button{
+    width: 142.5px;
+    height: 36px;
+    outline: none;
+    border: none;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    margin: 11px 4px;
+    line-height: 27px;
+}
+.buttons{
+    margin-top:10px ;
+}
+
+button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    color: #202124;
+    cursor: pointer;
+}
+.lastline a{
+    color: #1a0dab;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: small;
+    padding: 3px;
+}
+.lastline a:hover{
+    text-decoration: underline;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.account img:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #aaa;
+    margin-top: -5px;
+    
+}
+#app-dropdown{
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    width: 285px;
+    padding: 28px;
+    box-shadow: 0px 0px 2px #aaa;
+    border-radius: 10px;
+}
+#app-dropdown:hover{
+    box-shadow: 0px 0px 5px rgb(68, 67, 67);
+}
+.dot-icon{
+    margin: 0px 5px;
+    border-radius: 50%;
+    padding: 2px;
+}
+.dot-icon:hover{
+    background-color: rgb(192, 186, 186);
+
+}
+.dot-icon:hover > #app-dropdown{
+    display: block;
+}
+.app-item{
+    display: inline-block;
+    width: 84px;
+    margin: 0px;
+    padding: 8px 2px;
+    cursor: pointer;
+    text-align: center;
+}
+.app-item:hover{
+    box-shadow: 0px 0px 5px rgb(68, 67, 67);
+    background-color: none;
+    border-radius: 10px;
+}
+.app-item > img{
+    width: 50px;
+    height: 50px;
+}
+.app-item > p{
+    color: rgba(0, 0, 0, .87);
+    margin: 0px;
+    padding-top: 8px;
+    margin-bottom: 16px;
+    text-align: center;
+}
